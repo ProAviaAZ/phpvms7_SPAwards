@@ -83,6 +83,9 @@ Awarded to pilots who fly multiple early morning flights between 04:00 and 08:00
 26. Fuelburner<br>
 Rewards pilots who have performed at least one flight consuming more than a specified amount of fuel (for example, over 60,000 kg).
 
+27. RequiredAwards<br>
+Rewards pilots who have already earned multiple specific awards by granting them an additional special award (completing an award set).
+
 ## Debug examples:
 
 * SPAwards(RouteCode) | Pilot (ID: 1) has flown PF, ABC needed.  
@@ -112,6 +115,7 @@ Rewards pilots who have performed at least one flight consuming more than a spec
 * SPAwards(Discord) | Pilot (ID: 1) 000000000000000 verified successfully with required role 000000000000000.  
 * SPAwards(Earlybird) | Pilot (ID: 1) has 0 early flights, 5 required.  
 * SPAwards(Fuelburner) | Pilot (ID: 1) has no flights exceeding 50000 kg fuel used. 
+* SPAwards(RequiredAwards) | Pilot (ID: 4) has 1 of 3 required awards (3,23,5). 
 
 ## Note:
 
@@ -125,6 +129,10 @@ You can combine different award types to create progression levels, for example:
 Please use the GitHub [issue](https://github.com/PaintSplasher/phpvms7_SPAwards/issues) tracker.
 
 ## Release / Update Notes
+
+27.NOVEMBER.25
+
+* SPAwardsRequiredAwards: New award added for completing an award set.
 
 01.NOVEMBER.25
 
